@@ -26,5 +26,5 @@ jobs:
       with:
         name: Output
         path: |
-          share/build/generated/*
+          *
         compression-level: 9
