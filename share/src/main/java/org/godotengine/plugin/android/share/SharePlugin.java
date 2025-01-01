@@ -28,7 +28,7 @@ public class SharePlugin extends GodotPlugin {
 	private static final String LOG_TAG = "godot::" + CLASS_NAME;
 	private static final String FILE_PROVIDER = ".sharefileprovider";
 	private static final String MIME_TYPE_TEXT = "text/plain";
-	private static final String MIME_TYPE_IMAGE = "image/*";
+	private static final String MIME_TYPE_IMAGE = "*/*";
 
 	private Activity activity;
 	private String authority;
