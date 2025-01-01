@@ -1,8 +1,8 @@
 name: Android CI
+on: workflow_dispatch
 
 jobs:
   build:
-    on: workflow_call
 
     runs-on: ubuntu-latest
 
